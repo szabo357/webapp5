@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Estilos CSS -->
+		<link href="/css/estilos.css" rel="stylesheet">
+
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="navbar-inner">
+						<div clas="container">
+							<a class="navbar-brand" href="#"> 
+							<img id="tm_logo" src="images/tm_logo.jpg"> <img id="tm_logo" src="images/ah_logo.jpg"></a>
+							<ul class="nav navbar-nav">
+								<li class="active">
+									<a href="#">Home</a>
+								</li>
+								<li>
+									<a href="#">Link</a>
+								</li>
+							</ul>							
+						</div>
+					</div>
+				</nav>	
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="well">
+						<button type="button" class="btn btn-large btn-block btn-danger">button</button>
+					</div>
+				</div>
+			</div>
+			<div class="row" stlyle="padding-top:40px">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<div class="panel panel-primary">
+						  <div class="panel-heading">
+								<h3 class="panel-title">Salidas Digitales</h3>
+						  </div>
+						  <div class="panel-body">
+						  <div class="row">
+						  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						  		<ul>
+						  			<li class="btn-list-item">
+						  				<div class="row">
+						  					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						  						<button type="button" id="btn-out-1" class="btn btn-block btn-default"> Salida 1</button>
+						  					</div>
+						  					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						  						<div id="out-1"class="led-1"></div>
+						  					</div>
+						  				</div>
+						  			</li>
+						  			<li class="btn-list-item">
+						  				<div class="row">
+						  					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						  						<button type="button" id="btn-out-2" class="btn btn-block btn-default">Salida 2</button>
+						  					</div>
+						  					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						  						<div class="led-2"></div>
+						  					</div>
+						  				</div>
+						  			</li>
+						  			<li class="btn-list-item">
+						  				<div class="row">
+						  					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						  						<button type="button" id="btn-out-3" class="btn btn-block btn-default">Salida 3</button>
+						  					</div>
+						  					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						  						<div class="led-3"></div>
+						  					</div>
+						  				</div>
+						  			</li>
+						  			<li class="btn-list-item">
+						  				<div class="row">
+						  					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						  						<button type="button" id="btn-out-4" class="btn btn-block btn-default">Salida 4</button>
+						  					</div>
+						  					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						  						<div class="led-4"></div>
+						  					</div>
+						  				</div>
+						  			</li>
+						  			<li class="btn-list-item">
+						  				<div class="row">
+						  					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						  						<button type="button" id="btn-out-5" class="btn btn-block btn-default">Salida 5</button>
+						  					</div>
+						  					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						  						<div class="led-5"></div>
+						  					</div>
+						  				</div>
+						  			</li>						  			
+					  			</ul>
+						  	</div>
+
+						  </div>
+
+						  </div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<div class="panel panel-primary">
+						  <div class="panel-heading center-block">
+								<h3 class="panel-title ">Entradas Analogicas</h3>
+						  </div>
+						  <div class="panel-body">
+							<!--
+								<div class="row">
+						  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						  		<ul>
+						  			<li class="btn-list-item">
+						  				<div class="row">
+						  					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						  						<button type="button" id="btn-servoc" class="btn btn-block btn-default">Servo to Center</button>
+						  					</div>
+						  					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						  						<div id="out-1"class="led-6"></div>
+						  					</div>
+						  				</div>
+						  			</li>
+						  			<li class="btn-list-item">
+						  				<div class="row">
+						  					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						  						<button type="button" id="btn-servol" class="btn btn-block btn-default">Servo to Left</button>
+						  					</div>
+						  					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						  						<div class="led-7"></div>
+						  					</div>
+						  				</div>
+						  			</li>
+						  			<li class="btn-list-item">
+						  				<div class="row">
+						  					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						  						<button type="button" id="btn-servor" class="btn btn-block btn-default">Servo to Right</button>
+						  					</div>
+						  					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						  						<div class="led-8"></div>
+						  					</div>
+						  				</div>
+						  			</li>
+						  		</ul>
+						  	</div> 
+						  </div> -->
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+		<!-- jQuery -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<!-- Socket.io-client Javascript -->
+		<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+
+		<!-- Custom Javascript -->
+		<script src="/js/others.js" type="text/javascript" ></script>
+	</body>
+</html>
